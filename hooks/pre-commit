@@ -1,4 +1,4 @@
 #!/bin/sh
 echo "Building bundle.js"
-browserify index.js > bundle.js
+npm run build
 git add bundle.js
